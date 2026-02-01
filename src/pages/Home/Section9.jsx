@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Section9.css"
-import { MoveRight, User } from 'lucide-react'; 
+import { MoveRight, User } from 'lucide-react';
 
 const Section9 = () => {
     return (

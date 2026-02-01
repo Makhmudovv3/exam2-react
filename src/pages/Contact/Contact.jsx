@@ -5,12 +5,10 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 const Contact = () => {
     return (
         <div className="contact-page">
-            {/* Banner qismi */}
             <section className="contact-banner">
                 <h1>Contact Us</h1>
             </section>
 
-            {/* Asosiy qism */}
             <section className="contact-main">
                 <div className="container contact-flex">
                     <div className="contact-info">
@@ -42,7 +40,6 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Forma qismi */}
                     <form className="contact-form">
                         <div className="form-grid">
                             <div className="input-group">
