@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Search, ShoppingCart, ChevronDown } from 'lucide-react';
+import { Search, ShoppingCart } from 'lucide-react';
 import logo from "../../assets/logo.png";
 import './Header.css';
 

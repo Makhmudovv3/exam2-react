@@ -1,0 +1,52 @@
+.section18-container {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-image: url("../../assets/a7.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section18-container h1 {
+    font-size: 50px;
+    line-height: 100%;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+
+@media (max-width: 1024px) {
+    .section18-container h1 {
+        font-size: 40px;
+        padding: 0 50px;
+    }
+
+    .section18-container {
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section18-container {
+        height: 300px;
+        background-position: center;
+    }
+
+    .section18-container h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 480px) {
+    .section18-container {
+        height: 250px;
+    }
+
+    .section18-container h1 {
+        font-size: 26px;
+        padding: 0 20px;
+    }
+}

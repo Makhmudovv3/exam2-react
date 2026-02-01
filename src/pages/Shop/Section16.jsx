@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Section1 = () => {
+const Section16 = () => {
   return (
     <div>
     </div>
   )
 }
 
-export default Section1
+export default Section16
