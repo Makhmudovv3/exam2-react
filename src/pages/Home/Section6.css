@@ -1,0 +1,135 @@
+.offer-section {
+  background-color: #274c5b;
+  padding: 80px 20px;
+  min-height: 100vh;
+}
+
+.offer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.offer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.offer-subtitle {
+  color: #7eb693;
+  font-family: "Yellowtail", cursive;
+  font-size: 28px;
+  margin: 0;
+}
+
+.offer-title {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 5px 0 0 0;
+}
+
+.view-all-btn {
+  background-color: #efd372;
+  border: none;
+  padding: 18px 30px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #274c5b;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.offer-card {
+  background: #ffffff;
+  border-radius: 30px;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.offer-tag {
+  background: #274c5b;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  width: fit-content;
+  position: absolute;
+}
+
+.offer-img-box {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.offer-img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-name {
+  color: #274c5b;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin-bottom: 10px;
+}
+
+.offer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-box del {
+  color: #b8b8b8;
+  margin-right: 8px;
+}
+.current-price {
+  color: #274c5b;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .offer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .offer-title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 650px) {
+  .offer-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .offer-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .view-all-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
