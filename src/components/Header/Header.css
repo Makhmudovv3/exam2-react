@@ -1,0 +1,125 @@
+.header {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px 0;
+    font-family: 'Inter', sans-serif;
+    /* Rasmga yaqinroq shrift */
+}
+
+.container {
+    max-width: 1250px;
+    /* Rasmda elementlar kengroq joylashgan */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 32px;
+    height: auto;
+}
+
+.logo h1 {
+    color: #274C5B;
+    /* Rasmdagi asosiy to'q ko'k rang */
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a,
+.drop {
+    text-decoration: none;
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    color: #7EB693;
+    /* Rasmdagi yashil hover effekti */
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    background-color: #FAFAFA;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 25px;
+    width: 250px;
+    outline: none;
+}
+
+.s-btn {
+    position: absolute;
+    right: 5px;
+    background-color: #7EB693;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #E0E0E0;
+    border-radius: 40px;
+    padding: 5px 20px 5px 5px;
+    cursor: pointer;
+}
+
+.c-icon {
+    background-color: #274C5B;
+    color: white;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-text {
+    color: #274C5B;
+    font-weight: 700;
+    font-size: 17px;
+}

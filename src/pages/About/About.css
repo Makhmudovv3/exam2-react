@@ -1,0 +1,85 @@
+.about-banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('https://vortex-organic.netlify.app/images/About-Banner.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-banner h1 {
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.about-content {
+    padding: 100px 0;
+}
+
+.about-flex {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.subtitle {
+    font-family: 'Yellowtail', cursive;
+    color: #7EB693;
+    font-size: 30px;
+}
+
+.about-text h2 {
+    color: #274C5B;
+    font-size: 45px;
+    margin: 10px 0 20px 0;
+}
+
+.about-text p {
+    color: #525C60;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-features {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.feature-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.feature-icon {
+    background: #F9F8F8;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.feature-item h4 {
+    color: #274C5B;
+    margin: 0 0 5px 0;
+}
+
+.btn-dark {
+    background: #274C5B;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}

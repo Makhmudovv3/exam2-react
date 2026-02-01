@@ -1,0 +1,116 @@
+.contact-banner {
+    width: 100%;
+    height: 350px;
+    background-image: url('https://vortex-organic.netlify.app/images/Contact-Banner.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-banner h1 {
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.contact-main {
+    padding: 80px 0;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-img {
+    width: 50%;
+    border-radius: 25px;
+}
+
+.info-text h2 {
+    color: #274C5B;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.info-cards {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card-icon {
+    background: #F9F8F8;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Form Styles */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.input-group label {
+    display: block;
+    color: #274C5B;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #7EB693;
+    border-radius: 15px;
+    outline: none;
+    font-style: italic;
+}
+
+.message-group textarea {
+    height: 200px;
+    resize: none;
+}
+
+.btn-send {
+    background: #274C5B;
+    color: white;
+    padding: 20px 45px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-send:hover {
+    background: #7EB693;
+}

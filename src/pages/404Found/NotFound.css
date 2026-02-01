@@ -1,0 +1,69 @@
+.notfound-page {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.notfound-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.notfound-image {
+    width: 50%;
+}
+
+.notfound-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.notfound-content {
+    width: 45%;
+}
+
+.error-code {
+    font-size: 150px;
+    font-weight: 900;
+    color: #8FA89B;
+    /* Rasmdagi och yashil-kulrang tus */
+    margin: 0;
+    line-height: 1;
+}
+
+.error-text {
+    font-size: 50px;
+    color: #274C5B;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.error-desc {
+    color: #525C60;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.btn-home {
+    background-color: #274C5B;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #7EB693;
+    transform: translateY(-3px);
+}
