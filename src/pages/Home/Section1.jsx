@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Section1 = () => {
-    return (
-        <div><h1>
-            asfasffas</h1></div>
-    )
-}
+  return (
+    <div>
+      <h1></h1>
+    </div>
+  );
+};
 
-export default Section1
+export default Section1;

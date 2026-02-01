@@ -1,0 +1,139 @@
+.Section5 {
+  margin-top: 200px;
+  background-image: url(../../assets/orqafon.png);
+  width: 100%;
+  height: 680px;
+}
+.sec5 {
+  align-items: center;
+  text-align: center;
+  padding: 52px;
+}
+.sec5text h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7eb693;
+}
+.sec5 h1 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #274c5b;
+  margin-top: 8px;
+}
+.sec5text .odom {
+  margin-top: 51px;
+}
+.sec5text .a {
+  margin-top: 15px;
+}
+.sec5text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 165%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #525c60;
+}
+.sec5text h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #274c5b;
+  margin-top: 20px;
+}
+.sec5text .p1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 165%;
+  letter-spacing: 0%;
+  color: #525c60;
+}
+.border {
+  width: 700px;
+  height: 1px;
+  opacity: 1;
+  border: 1px solid gray;
+  margin-left: 360px;
+  margin-top: 20px;
+}
+.sec5box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  gap: 62px;
+}
+.boxx {
+  width: 111px;
+  height: 111px;
+  border-radius: 50%;
+  border: 5px solid #7eb693;
+  text-align: center;
+  align-content: center;
+}
+
+@media (max-width: 1024px) {
+  .Section5 {
+    height: auto; 
+    padding-bottom: 50px;
+    margin-top: 100px;
+  }
+
+  .border {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .Section5 {
+    margin-top: 60px;
+    background-size: cover; 
+  }
+
+  .sec5 {
+    padding: 30px 15px;
+  }
+
+  .sec5 h1 {
+    font-size: 28px;
+  }
+
+  .sec5text p {
+    font-size: 14px;
+    width: 100%; 
+  }
+
+  .sec5box {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .border {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec5 h1 {
+    font-size: 24px;
+  }
+
+  .boxx {
+    width: 90px;
+    height: 90px;
+  }
+
+  .sec5text .odom {
+    width: 80px; 
+    margin-top: 30px;
+  }
+}

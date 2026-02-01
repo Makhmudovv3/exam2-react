@@ -1,0 +1,192 @@
+.Sec4text {
+  text-align: center;
+  align-content: center;
+  margin-top: 176px;
+}
+.Sec4text h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #7eb693;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Sec4text h1 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #274c5b;
+}
+.Sec4box {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  width: 335px;
+  height: 483px;
+  opacity: 1;
+  /* background-color: red; */
+  border-radius: 30px;
+  padding: 17px 30px 17px 30px;
+  background-color: #f9f8f8;
+}
+.box1 .img1 {
+  width: 280px;
+  height: 324px;
+  margin-top: 13px;
+  border-radius: 20px;
+}
+
+.box1 button {
+  width: 96px;
+  height: 31px;
+  opacity: 1;
+  gap: 10px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-right: 12px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  background-color: #274c5b;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.box1 h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #274c5b;
+  text-align: start;
+  margin-top: 5px;
+}
+.box1 hr {
+  margin-top: 8px;
+  color: #b8b8b8;
+}
+.box1 del {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #274c5b;
+}
+.box1 h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #274c5b;
+}
+.sec4text2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  margin-top: 6px;
+}
+
+.sec4textt {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.sec4textt del {
+  color: #b8b8b8;
+}
+.sec4btn {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 122px;
+}
+.sec4btn button {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #274c5b;
+  border-radius: 16px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+/* --- Planshetlar uchun (max-width: 1024px) --- */
+@media (max-width: 1024px) {
+  .Sec4text {
+    margin-top: 100px; /* Masofani biroz kamaytirdik */
+  }
+  
+  .Sec4text h1 {
+    font-size: 40px; /* Sarlavha hajmini mosladik */
+  }
+}
+
+@media (max-width: 768px) {
+  .Sec4text {
+    margin-top: 60px;
+    padding: 0 20px;
+  }
+
+  .Sec4text h1 {
+    font-size: 32px;
+  }
+
+  .Sec4box {
+    gap: 15px;
+  }
+
+  .box1 {
+    width: 90%;
+    height: auto;
+    padding-bottom: 25px;
+  }
+
+  .box1 .img1 {
+    width: 100%; 
+    height: auto;
+  }
+
+  .sec4btn {
+    margin-top: 60px; 
+}
+
+@media (max-width: 480px) {
+  .Sec4text h1 {
+    font-size: 28px;
+  }
+
+  .Sec4text h3 {
+    font-size: 18px;
+  }
+
+  .box1 {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .sec4btn button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
