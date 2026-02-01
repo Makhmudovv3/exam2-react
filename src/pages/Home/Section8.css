@@ -1,0 +1,86 @@
+.section8-container {
+    background-color: #F1F8F4;
+    width: 100%;
+    height: 957px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    text-align: center;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 512px;
+    height: 423px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card1 {
+    background-image: url("../../assets/a1.jpg");
+}
+
+.card2 {
+    background-image: url("../../assets/a2.png");
+}
+
+.card3 {
+    background-image: url("../../assets/a3.png");
+}
+
+.section8-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section8-card p {
+    width: 250px;
+    height: 56px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 19px 23px;
+    font-size: 20px;
+    color: #274C5B;
+    font-weight: 550;
+}
+
+
+@media (max-width: 1200px) {
+    .section8-container {
+        height: auto;
+        padding: 50px 20px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 45%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section8-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 90%;
+        height: 300px;
+    }
+
+    .section8-card p {
+        width: 200px;
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+}

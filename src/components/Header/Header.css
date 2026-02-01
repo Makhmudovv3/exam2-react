@@ -2,13 +2,10 @@
     width: 100%;
     background-color: #ffffff;
     padding: 30px 0;
-    font-family: 'Inter', sans-serif;
-    /* Rasmga yaqinroq shrift */
 }
 
 .container {
     max-width: 1250px;
-    /* Rasmda elementlar kengroq joylashgan */
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -30,7 +27,6 @@
 
 .logo h1 {
     color: #274C5B;
-    /* Rasmdagi asosiy to'q ko'k rang */
     font-size: 30px;
     font-weight: 800;
     margin: 0;
@@ -58,7 +54,6 @@
 
 .menu ul li a:hover {
     color: #7EB693;
-    /* Rasmdagi yashil hover effekti */
 }
 
 .search {
@@ -122,4 +117,82 @@
     color: #274C5B;
     font-weight: 700;
     font-size: 17px;
+}
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        gap: 20px;
+    }
+
+    .menu ul {
+        gap: 15px;
+    }
+
+    .search input {
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .menu {
+        order: 3;
+        width: 100%;
+        display: none;
+    }
+
+    .logo h1 {
+        font-size: 24px;
+    }
+
+    .actions {
+        gap: 10px;
+    }
+
+    .search input {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .search {
+        width: 100%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .cart {
+        padding: 4px 12px 4px 4px;
+    }
+
+    .c-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .c-text {
+        font-size: 14px;
+    }
 }
