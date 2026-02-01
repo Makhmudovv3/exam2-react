@@ -1,0 +1,97 @@
+.card1{
+    background-image: url("../../assets/back2.png");
+    background-repeat: no-repeat;
+    height: 367px;
+    padding-left: 80px;
+    width: 682px;
+}
+.card1 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.card1 h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+.card2{
+    background-image: url("../../assets/back3.png");
+    background-repeat: no-repeat;
+    height: 367px;
+    width: 682px;
+    padding-left: 80px;
+    border-radius: 30px;
+}
+.card2 h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #7EB693;
+    padding-top: 100px;
+}
+.card2 h1{
+    font-size: 50px;
+    color: #274C5B;
+    font-weight: 800;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 150px;
+}
+
+/* --- Asosiy o'zgarishlar (widthni moslashuvchan qilish) --- */
+.card1, .card2 {
+    background-size: cover; /* Fon rasmi to'liq sig'ishi uchun */
+    background-position: center;
+    max-width: 682px; /* Maksimal kenglik */
+    width: 100%;     /* Ekran kichrayganda o'zi qisqaradi */
+    border-radius: 30px; /* Ikkala kartaga ham radius berish tavsiya etiladi */
+}
+
+/* --- Media Queries --- */
+
+/* Planshetlar uchun (max-width: 1200px) */
+@media (max-width: 1200px) {
+    .sec2 {
+        padding: 0 20px;
+    }
+    .card1 h1, .card2 h1 {
+        font-size: 40px;
+    }
+}
+
+/* Mobil telefonlar uchun (max-width: 768px) */
+@media (max-width: 768px) {
+    .sec2 {
+        flex-direction: column; /* Kartalarni ustma-ust qo'yish */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card1, .card2 {
+        height: 300px; /* Balandlikni biroz kamaytiramiz */
+        padding-left: 30px; /* Chap bo'shliqni mobilga moslash */
+    }
+
+    .card1 h2, .card2 h2 {
+        font-size: 24px;
+        padding-top: 60px; /* Yuqoridan bo'shliqni kamaytiramiz */
+    }
+
+    .card1 h1, .card2 h1 {
+        font-size: 32px;
+    }
+}
+
+/* Kichik mobil telefonlar uchun (max-width: 480px) */
+@media (max-width: 480px) {
+    .card1, .card2 {
+        height: 250px;
+    }
+    .card1 h1, .card2 h1 {
+        font-size: 26px;
+    }
+}
